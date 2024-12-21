@@ -1,16 +1,18 @@
 body {
- background-color: beige; 
+  background-color: beige;
 }
 
-h3{
-  color:black;
-      font-size: 250%;
-    text-decoration-line: overline underline ;
-  text-shadow: 1px 12px 10px;
-  letter-spacing: 10px;
-  font-style: oblique;
+h3 {
+  color: black;
+  font-size: 250%;
+  text-decoration: overline underline;
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, 0.5);
+  letter-spacing: 2px;
+  font-style: italic; /* Changed from oblique */
 }
-img{
+
+img {
   width: 100px;
+  height: auto; /* Added to maintain aspect ratio */
+  border-radius: 50%; /* Optional: Makes the image circular */
 }
-
